@@ -93,6 +93,7 @@ main{
 .see-more-anchor{
     text-align: right;
     margin-bottom: 60px;
+    margin-right: 60px;
 }
 .see-more-anchor a{
     text-decoration: none;
