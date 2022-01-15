@@ -2,10 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    
+    margin: 0;
 }
 /* --common styles-- */
 .half-width{
@@ -14,13 +12,14 @@ body{
 }
 /* --header styles-- */
 nav{
-    padding-left: 50px;
+    padding-left: 150px;
     margin: 80px 0px;
 }
 .header{
     display: flex; 
     align-items: center;
     width: 1200px;
+    padding-left: 100px;
 }
 .head-info h1{
     font-size: 52px;
@@ -44,6 +43,67 @@ nav{
 .head-pic:hover{
     transform: scale(1.20) rotate(360deg);
 }
-/* section popular collection */
-
-
+/*--------------
+ section popular collection 
+ --------------*/
+main{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-title{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.product{
+    width: 330px;
+    margin: 15px;
+    box-shadow: 5px 5px 20px gray;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.product-name{
+    font-size: 28px;
+}
+.product-price{
+    font-weight: 100;
+    font-size: 24px;
+}
+.fa-star{
+    font-size: 16px;
+    color: gold;
+}
+.rating-number{
+    padding-left: 5px;
+}
+.see-more-anchor{
+    text-align: right;
+    margin-bottom: 100px;
+}
+.see-more-anchor a{
+    text-decoration: none;
+    color: #E02C6D;
+} 
+ /*--------
+    footer
+ --------  */
+footer{
+    color: white;
+    background: steelblue;
+    text-align: center;  
+}
+.social-media{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.footer-property{
+    padding: 20px 0;
+}
